@@ -42,6 +42,7 @@ On the header there is also a "Profile" button which links to the user profile p
 
 ## Screenshots
 ![The main page](assets/screenshots/screenshot-1.png)
+![The product details page](assets/screenshots/screenshot-6.png)
 ![The login page](assets/screenshots/screenshot-2.png)
 ![The cart page](assets/screenshots/screenshot-3.png)
 ![The checkout page](assets/screenshots/screenshot-4.png)
