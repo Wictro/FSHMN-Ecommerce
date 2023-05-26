@@ -116,7 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </head>
   <body>
     <div class="login-form">
-      <form method="post" action="register.php">
+      <form method="post" action="register.php" autocomplete="off">
         <h1>Register</h1>
         <div class="content">
           <span class="error"><?php echo $err;?></span>
@@ -129,27 +129,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <span class="error"><?php echo $last_nameErr;?></span>
           </div>
           <div class="input-field">
-            <input type="email" name="email" placeholder="Email" autocomplete="nope" value="<?php echo $email;?>" required>
+            <input type="email" name="email" placeholder="Email" autocomplete="off" value="<?php echo $email;?>" required>
             <span class="error"><?php echo $emailErr;?></span>
           </div>
           <div class="input-field">
-            <input type="password" name="password" placeholder="Password" autocomplete="nope" required>
+            <input type="password" name="password" placeholder="Password" autocomplete="off" required>
             <span class="error"><?php echo $passwordErr;?></span>
           </div>
           <div class="input-field">
-            <input type="text" name="address" placeholder="Address" autocomplete="nope" value="<?php echo $address;?>" required>
+            <input type="text" name="address" placeholder="Address" autocomplete="off" value="<?php echo $address;?>" required>
             <span class="error"><?php echo $addressErr;?></span>
           </div>
           <div class="input-field">
-            <input type="text" name="city" placeholder="City" autocomplete="nope" value="<?php echo $city;?>" required>
+            <input type="text" name="city" placeholder="City" autocomplete="off" value="<?php echo $city;?>" required>
             <span class="error"><?php echo $cityErr;?></span>
           </div>
           <div class="input-field">
-            <input type="text" name="country" placeholder="Country" autocomplete="nope" value="<?php echo $country;?>" required>
+            <input type="text" name="country" placeholder="Country" autocomplete="off" value="<?php echo $country;?>" required>
             <span class="error"><?php echo $countryErr;?></span>
           </div>
           <div class="input-field">
-            <input type="text" name="zip_code" placeholder="Zip Code" autocomplete="nope" value="<?php echo $zip_code;?>" required>
+            <input type="text" name="zip_code" placeholder="Zip Code" autocomplete="off" value="<?php echo $zip_code;?>" required>
             <span class="error"><?php echo $zipErr;?></span>
           </div>
         </div>

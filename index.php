@@ -53,7 +53,7 @@
       $sql = "SELECT * FROM categories WHERE parent_id IS NULL";
       $category_result = $conn->query($sql);
       // display category dropdown menu
-      echo "<form method='get' class='filters-container'>";
+      echo "<form method='get' class='filters-container' autocomplete='off'>";
       echo '<input id="searchbox" name="search" placeholder=\'Search Products\' value="' . $_GET['search'] . '">';
       echo "<select id='category' name='category'>";
       echo "<option value=''>All categories</option>";

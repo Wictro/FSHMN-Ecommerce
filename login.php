@@ -49,11 +49,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	</head>
 	<body>
 		<div class="login-form">
-		  <form method="post" action="login.php">
+		  <form method="post" action="login.php" autocomplete="off">
 		    <h1>Login</h1>
 		    <div class="content">
 		      <div class="input-field">
-		        <input type="email" name="email" placeholder="Email" autocomplete="nope" value="<?php echo $email;?>" required>
+		        <input type="email" name="email" placeholder="Email" autocomplete="off" value="<?php echo $email;?>" required>
 		      </div>
 		      <div class="input-field">
 		        <input type="password" placeholder="Password" name="password" autocomplete="new-password" required>
