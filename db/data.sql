@@ -1,3 +1,5 @@
+USE `ecommerce`;
+
 INSERT INTO categories (id, name, parent_id) VALUES
   (1, 'Electronics', NULL),
   (2, 'Laptops', 1),
@@ -45,11 +47,3 @@ INSERT INTO products (name, image_url, price, category_id, description) VALUES
   ('Vitamix 5200 Blender', 'vitamix5200.jpeg', 449.99, 1, 'The Vitamix 5200 Blender is a high-performance appliance for blending, pureeing, and chopping, with a powerful motor and a range of speed settings.');
 
   INSERT INTO users (first_name, last_name, email, password, address, city, country, zip_code, confirmed) VALUES ('Filan', 'Fisteku', 'filan@fisteku.com', '$2y$10$Umqzl3miLG9WqwwhiXnmDOtij5feNl9/61g9fCUgbouTHhMCFOx0K', 'Bill Clinton s.t', 'Prishtina', 'Kosove', '10000', 1);
-
-
-
-
-
-
-
-
