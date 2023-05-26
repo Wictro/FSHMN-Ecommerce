@@ -12,7 +12,7 @@
 	$phpmailer->Host = 'sandbox.smtp.mailtrap.io';
 	$phpmailer->SMTPAuth = true;
 	$phpmailer->Port = 2525;
-	$phpmailer->Username = '6a31af63548937';
-	$phpmailer->Password = 'b637aa97f32ba4';
+	$phpmailer->Username = '';
+	$phpmailer->Password = '';
 	$phpmailer->SMTPSecure = 'tls';
 ?>
