@@ -41,8 +41,8 @@ The checkout page contains a form to be filled by the user for their card inform
 On the header there is also a "Profile" button which links to the user profile page. On this page the user can view and edit his address information as well as their profile picture directly.
 
 ## Screenshots
-![The main page](assets/screenshots/screenshot-1.png);
-![The login page](assets/screenshots/screenshot-2.png);
-![The cart page](assets/screenshots/screenshot-3.png);
-![The checkout page](assets/screenshots/screenshot-4.png);
-![The profile page](assets/screenshots/screenshot-5.png);
+![The main page](assets/screenshots/screenshot-1.png)
+![The login page](assets/screenshots/screenshot-2.png)
+![The cart page](assets/screenshots/screenshot-3.png)
+![The checkout page](assets/screenshots/screenshot-4.png)
+![The profile page](assets/screenshots/screenshot-5.png)
